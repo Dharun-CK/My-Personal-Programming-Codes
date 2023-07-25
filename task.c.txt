@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int  a,b;
+    float i,j;
+    char name,deg;
+    printf("ENTER THE NUMBERS: ");
+    scanf("%d%d",&a,&b);
+    printf(a,b);
+    printf("ENTER THE float NUMBERS: ");
+    scanf("%f%f",&i,&j);
+    printf(i,j);
+    printf("Enter the NAME:");
+    scanf("%c",&name);
+    return 0;
+} 
